@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_vk_test/data/message_for_commit.dart';
 
 void main() {
   runApp(const MyApp());
@@ -29,7 +30,7 @@ class MyHomePage extends StatelessWidget {
       appBar: AppBar(
         title: Text('VK test'),
       ),
-      body: Center(child: Text('VK test')),
+      body: Center(child: Text(MessageForCommit.message)),
     );
   }
 }
